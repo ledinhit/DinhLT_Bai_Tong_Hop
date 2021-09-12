@@ -1,0 +1,186 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-12T09:04:32.596Z",
+        "line": 2,
+        "name": "Create address successfully",
+        "description": "",
+        "id": "address;create-address-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5076000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The user open page Market",
+            "match": {
+              "location": "stepDefinitions.DeliveryAddressStepDefinition.theUserOpenPageMarket()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 859000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user login page",
+            "match": {
+              "location": "stepDefinitions.DeliveryAddressStepDefinition.theUserLoginPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1415000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user select account information",
+            "match": {
+              "location": "stepDefinitions.DeliveryAddressStepDefinition.theUserSelectAccountInformation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user select list address",
+            "match": {
+              "location": "stepDefinitions.DeliveryAddressStepDefinition.theUserSelectListAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user click button create address",
+            "match": {
+              "location": "stepDefinitions.DeliveryAddressStepDefinition.theUserClickButtonCreateAddress()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user enter name \"Dinh test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dinh test\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.DeliveryAddressStepDefinition.theUserEnterName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user enter phone \"0376595423\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0376595423\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.DeliveryAddressStepDefinition.theUserEnterPhone(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2100000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user select district",
+            "match": {
+              "location": "stepDefinitions.DeliveryAddressStepDefinition.theUserSelectDistrict()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user enter address \"266 Đội cấn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"266 Đội cấn\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinitions.DeliveryAddressStepDefinition.theUserEnterAddress(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3102000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user select ward",
+            "match": {
+              "location": "stepDefinitions.DeliveryAddressStepDefinition.theUserSelectWard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The user click button save",
+            "match": {
+              "location": "stepDefinitions.DeliveryAddressStepDefinition.theUserClickButtonSave()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3260000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The User checks the message of successful delivery address creation",
+            "match": {
+              "location": "stepDefinitions.DeliveryAddressStepDefinition.theUserChecksTheMessageOfSuccessfulDeliveryAddressCreation()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Address",
+    "description": "",
+    "id": "address",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/DeliveryAddress.feature",
+    "tags": []
+  }
+]
